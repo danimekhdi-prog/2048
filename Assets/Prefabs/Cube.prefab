@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CubeNumber: 2
-  JumpPower: 10
+  JumpPower: 20
   CubeInfo:
   - {fileID: 326802902198176367}
   - {fileID: 6686003322142383377}

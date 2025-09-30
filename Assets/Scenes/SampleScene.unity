@@ -3457,7 +3457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseManager: {fileID: 892740822}
-  _pushPower: 30
+  _pushPower: 60
   _coolDown: 1
   _pointA: {fileID: 1846551440}
   _pointB: {fileID: 202402532}
