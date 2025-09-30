@@ -25,6 +25,8 @@ public class RestrictedArea : MonoBehaviour
             
         }
         GameManager.IsGameOver = true;
+        InfoText.text = "";
+        Countdown = 0;
         StopAllCoroutines();
     }
 
@@ -54,13 +56,8 @@ public class RestrictedArea : MonoBehaviour
             other.tag = "SimpleCube";
             _newCube = null;
             InfoText.text = "";
-            StopAllCoroutines();
-        }
-        else if (other.CompareTag("SimpleCube"))
-        {
-            
-            StopAllCoroutines();
             Countdown = 0;
+            StopAllCoroutines();
         }
     }
 }
